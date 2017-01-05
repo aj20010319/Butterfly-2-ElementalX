@@ -3194,11 +3194,18 @@ config MACH_B2_UL
         bool "MSM8974 M8"
         help
           Support for HTC MSM8974 B2_UL
+
 config MACH_B2_WLJ
         depends on ARCH_MSM8974
         bool "MSM8974 B2_WLJ"
         help
           Support for HTC MSM8974 B2_WLJ
+
+config MACH_MEC_UL
+        depends on ARCH_MSM8974
+        bool "MSM8974 MEC_UL"
+        help
+          Support for HTC MSM8974 MEC_UL
 
 endif
 
